@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-page-body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1920px;
+  height: auto;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* header */
+.main-header {
+  display: flex;
+  align-items: top;
+}
+
+.left-header {
+  margin-top: 20px;
+  margin-bottom: 140px;
+  width: 1130px;
+}
+
+.left-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.header-line {
+  margin-right: 20px;
+  color: #94bbd9;
+  transform: translateY(4px);
+}
+
+.header-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Lato-Light;
+  transform: translateY(4px);
+}
+
+.header-text-1 {
+  margin-top: 0px;
+  margin-bottom: 3px;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.header-text-2 {
+  margin: 0px;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.header-name {
+  font-family: Lato-Bold;
+}
+
+.right-header {
+  padding-top: 20px;
+  width: 790px;
+  background-color: rgba(28, 32, 40, 0.9);
+}
+
+.call-us {
+  margin-right: 150px;
+  margin-left: auto;
+  min-width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header-tel {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-align: end;
+}
+
+.header-delivery {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin-top: 3px;
+}
+
+/* section */
+main {
+  display: flex;
+}
+
+.left-section {
+  width: 1130px;
+}
+
+.right-section {
+  width: 790px;
+  height: 100vh;
+  background-color: rgba(28, 32, 40, 0.9);
+}
+
+.section-inf {
+  position: relative;
+  display: inline-block;
+}
+
+.section-inf-link {
+  margin-left: 270px;
+  background: linear-gradient(45deg, #0fa9ff 50%, #ffffff 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0fa9ff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  border-bottom: 1px solid;
+  white-space: nowrap;
+}
+
+.section-inf-link:hover {
+  display: none;
+}
+
+.drop {
+  margin-left: 235px;
+  flex-direction: row;
+  display: none;
+  position: absolute;
+  bottom: -10px;
+}
+
+.section-inf:hover .drop {
+  display: flex;
+}
+
+.drop-list-item {
+  list-style: none;
+  width: 125px;
+}
+
+.drop-list-item > a {
+  color: #0fa9ff;
+}
+
+.section-inf:hover .section-inf-link {
+  display: none;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+h1 > p {
+  margin-left: 270px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: "Oswald";
+  font-weight: 500;
+  line-height: 1;
+}
+
+.section-heading-item {
+  margin-left: 150px;
+}
+
+.button {
+  background-color: #0fa9ff;
+  color: black;
+  margin-left: 270px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-icon-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  margin-top: 100px;
+  margin-left: 270px;
+  margin-right: 20px;
+  list-style: none;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0px;
+}
+
+.section-icon-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+  list-style: none;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: end;
+}
+
+.section-icons-item-2 {
+  margin-top: 50px;
+}
+
+.section-icons-item-4 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.section-icons-item-3 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.icn-1 {
+  margin-right: 15px;
+}
+
+.icn-2 {
+  margin-right: 15px;
+}
+
+.icn-3 {
+  margin-right: 15px;
+}
+
+.icn-4 {
+  margin-right: 15px;
+}
+
+.section-text {
+  transform: translateX(20px);
+}
